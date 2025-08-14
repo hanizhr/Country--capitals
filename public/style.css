@@ -1,0 +1,78 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    color: #ff4d4d;
+    font-size: 2.5rem;
+    margin-top: 30px;
+    text-shadow: 2px 2px #fff;
+}
+
+p {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1.1rem;
+    border: 3px solid #ffb347;
+    border-radius: 25px;
+    outline: none;
+    transition: 0.3s;
+    text-align: center;
+}
+
+input:focus {
+    border-color: #ff4d4d;
+    box-shadow: 0 0 10px #ff4d4d;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: transform 0.2s, background-color 0.3s;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #ff1a1a;
+    transform: scale(1.1);
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+a:hover {
+    transform: scale(1.1);
+    background-color: #3e8e41;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

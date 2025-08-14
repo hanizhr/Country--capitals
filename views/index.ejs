@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>بازی پایتخت کشورها</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>بازی پایتخت کشورها</h1>
+    <p>امتیاز شما: <%= score %></p>
+    <form action="/answer" method="post">
+        <p>پایتخت کشور <strong><%= country %></strong> چیست؟</p>
+        <input type="text" name="capital" placeholder="نام پایتخت" required>
+        <button type="submit">ثبت پاسخ</button>
+    </form>
+</body>
+</html>

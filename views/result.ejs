@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>نتیجه</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <% if (correct) { %>
+        <h2>✅ آفرین! درست جواب دادی.</h2>
+    <% } else { %>
+        <h2>❌ اشتباه! پاسخ صحیح: <%= correctAnswer %></h2>
+    <% } %>
+    <p>امتیاز شما: <%= score %></p>
+    <a href="/">سوال بعدی</a>
+</body>
+</html>
